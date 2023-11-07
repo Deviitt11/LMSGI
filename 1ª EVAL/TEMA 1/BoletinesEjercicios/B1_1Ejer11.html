@@ -9,8 +9,14 @@
 		</title>
 		
 		<style type = "text/css">
-		
-			<form method = "post" action = "mailto: correo@gmail.com" subject = "Formulario" enctype = "text/plain"/>
+			
+		</style>
+	
+	</head>
+
+	<body>
+	
+		<form method = "post" action = "mailto: correo@gmail.com" subject = "Formulario" enctype = "text/plain"/>
 
 				<!-- Apellidos + caja -->
 				<p>
@@ -56,24 +62,27 @@
 				<p>
 				
 					¿Tienes algún comentario?<br/>
-					<
-				
-				
+					<textarea rows = "4" cols = "25" name = "com"></textarea><br/>
 				
 				</p>
-	
+				
+				<!-- Caja de texto -->
+				<p>
+				
+					¿Cuál es tu dirección e-mail?
+					<input type = "text" name = "cor"/>
+				
+				</p>
+				
+				<!-- Botones de enviar -->
+				<p>
+				
+					<button type = "submit" name = "env">Enviar el formulario por e-mail</button>&nbsp;&nbsp;
+					<button type = "reset" name = "can">Cancelar</button>
+				
+				</p>
 				
 			</form>
-			
-		</style>
-	
-	</head>
-
-	<body>
-	
-	
-	
-	
 	
 	</body>
 
