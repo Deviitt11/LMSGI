@@ -1,0 +1,126 @@
+<html>
+
+	<head>
+
+		<meta charset = "UTF-8"/>
+		
+		<title>
+			Cpr5
+		</title>
+		
+		<style type = "text/css">
+		
+			p {
+			
+				width: 50%;
+				
+				
+			}
+			
+			.p1 {
+			
+				color: red;
+				font-size: 10pt;
+				
+			}
+			
+			.p2 {
+			
+				color: green;
+				font-size: 12pt;
+				
+			}
+			
+			
+			
+			
+		
+		</style>
+		
+		
+	
+	</head>
+	
+	<body>
+	
+		<!-- Formulario y atributos -->
+		<form method = "post" action = "mailto: correo@gmail.com" subject = "Formulario" enctype = "text/plain">
+		
+			<!-- Nombre con caja -->
+			<p>
+				Nombre: 
+				<input type = "text" name = "nom"/>				
+			</p>
+		
+			<!-- Radio buttons, opción única -->
+			<p>
+		
+				Seleccione la franja de edad en la que se encuentra:<br/>
+				<input type = "radio" name = "eda" value = "1"/>1-17<br/>
+				<input type = "radio" name = "eda" value = "2"/>18-25<br/>
+				<input type = "radio" name = "eda" value = "3" checked = "checked"/>26-50<br/>
+				<input type = "radio" name = "eda" value = "4"/>50+
+				
+			</p>
+			
+			<!-- Check buttons, varias opciones -->
+			<p>
+			
+				¿En qué módulos deseas matricularte?<br/>
+				<input type = "checkbox" name = "m1" value = "a">PROGR<br/>
+				<input type = "checkbox" name = "m2" value = "b">BADAT<br/>
+				<input type = "checkbox" name = "m3" value = "c">LMSGI<br/>
+				<input type = "checkbox" name = "m4" value = "d">ENDES
+					
+			</p>
+			
+			<p>
+			
+				Indica cuál ha sido su <font color = "blue">módulo</font> favorito: 
+				
+			</p>
+			
+			<!-- Área de texto, caja -->
+			<textarea rows = "4" cols = "25" name = "com"></textarea><br/>
+
+			<!-- Botones -->
+			<button type = "submit" name = "env">Enviar</button>&nbsp;&nbsp;&nbsp;&nbsp;
+			<button type = "reset" name = "can">Cancelar</button>
+						
+		</form>
+		
+		<p>
+		
+			<div class = "p1">
+			HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcado de hipertexto’), 
+			hace referencia al lenguaje de marcado para la elaboración de páginas web. 
+			Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web 
+			en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) 
+			para la definición de contenido de una página web, como texto, imágenes, videos, juegos, 
+			entre otros. Es un estándar a cargo del World Wide Web Consortium (W3C) o Consorcio WWW, 
+			organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, 
+			sobre todo en lo referente a su escritura e interpretación. HTML se considera el lenguaje web 
+			más importante siendo su invención crucial en la aparición, desarrollo y expansión de la World Wide
+			Web (WWW). Es el estándar que se ha impuesto en la visualización de páginas web y es el que todos 
+			los navegadores actuales han adoptado.
+			</div>
+			
+		</p>
+		
+		<p>
+		
+			<div class = "p2">
+			CSS (siglas en inglés de Cascading Style Sheets), en español «Hojas de estilo en cascada», 
+			es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado 
+			escrito en un lenguaje de marcado.2​ Es muy usado para establecer el diseño visual de los documentos
+			web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier 
+			documento XML, incluyendo XHTML, SVG, XUL, RSS, etcétera. Junto con HTML y JavaScript, 
+			CSS es una tecnología usada por muchos sitios web para crear páginas visualmente atractivas, 
+			interfaces de usuario para aplicaciones web y GUIs para muchas aplicaciones móviles (como Firefox OS).3
+			</div>
+		
+		</p>
+	
+	</body>
+
+</html>
