@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: #0000ff;
+    width: 400px;
+    background-color: #fabada;
+    padding: 15px;
+    border: 15px solid black;
+    margin: 30px;
+}
+
+.verde {
+    color: #00ff00;
+}
+
+p .rojo {
+    color: red;
+}
+
+.sinmargen {
+    box-sizing: border-box;
+}
+
+.conmargen {
+    box-sizing: content-box;
+}
