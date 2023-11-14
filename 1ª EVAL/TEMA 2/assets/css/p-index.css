@@ -1,0 +1,22 @@
+p {
+    color: orange;
+}
+
+.azul{
+    background-color: blue; 
+    width: 50%;
+}
+
+/*
+Anidado
+*/
+p .rojo{
+    background-color: red;
+}
+
+/*
+Todo junto
+*/
+p.amarillo {
+    background-color: yellow;
+}
