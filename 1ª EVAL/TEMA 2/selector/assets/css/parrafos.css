@@ -1,0 +1,19 @@
+div>p{
+    color: blue;
+}
+
+p:last-child{
+    font-weight: bold;
+}
+
+p:first-child{
+    text-decoration: overline;
+}
+
+p:nth-child(1){
+    background-color: pink;
+}
+
+p:nth-child(3n+2){
+    font-style: italic;
+}
