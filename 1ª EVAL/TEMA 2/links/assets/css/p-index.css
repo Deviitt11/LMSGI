@@ -20,3 +20,11 @@ Todo junto
 p.amarillo {
     background-color: yellow;
 }
+
+tr:nth-child(odd){
+    background-color: aquamarine;
+}
+
+tr:nth-child(odd):hover {
+    background-color: brown;
+}

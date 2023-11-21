@@ -1,0 +1,17 @@
+table{
+    margin: auto;
+    background: black;
+    border-collapse: collapse;
+}
+
+td{
+    width: 5vw;
+    height: 5vw;
+    
+}
+
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even) {
+    background: white;
+}
+
