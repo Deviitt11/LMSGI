@@ -1,0 +1,35 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+#em section, #em article {
+    background-color: aquamarine;
+    font-size: 2em;
+}
+
+#rem section, #rem article{
+    font-size: 2rem;
+}
+
+#vw section, #vw article{
+    font-size: 5vw;
+    background-color: darkolivegreen;
+}
+
+#cajapx{
+    margin-top: 50px;
+    width: 500px;
+    background-color: aqua;
+}
+
+#cajaporcentaje{
+    width: 50%;
+    background-color: coral;
+}
+
+#cajapx{
+    width: 500vw;
+    background-color: darkolivegreen;
+}

@@ -1,0 +1,22 @@
+p {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+#borderbox{
+    box-sizing: border-box;
+    width: 400px;
+    padding: 20px;
+    border: 10px solid #aaaaaa;
+    background-color: darkorange;
+}
+
+#contentbox{
+    box-sizing: content-box;
+    width: 400px;
+    padding: 20px;
+    border: 10px solid #aaaaaa;
+    background-color: darkorange;
+
+}

@@ -1,0 +1,41 @@
+a[href] { /*etiquetas con atributo href */
+    text-decoration: none;
+}
+    
+a[href="enlace-1.html"] { /* etiquetas con atributo href igual a enlace */
+    color: #00ff00;
+}
+
+a[href$= ".pdf"] { /* etiquetas con atributo href que terminen en .pdf */
+    text-transform: uppercase;
+    color: red;
+}
+
+a[href*= "-3."] { /* etiquetas con atributo href que terminen en -3. */
+    color: orangered;
+    font-weight: bold;
+}
+
+a[href^= "enlace-6"] { /* etiquetas con atributo href que terminen en -3. */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a::before{
+    /* añadimos, después de una etiqueta a, el texto - fin del enlace con color negro */
+    content: "Enlace a ";
+    color: blackS;
+}
+
+a::after{
+    /* añadimos, después de una etiqueta a, el texto - fin del enlace con color negro */
+    content: " - fin del enlace";
+    color: blackS;
+}
+
+a[href$=".pdf"]::after {
+    /* añadimos después de una etiqueta a con atributo href terminado en .pdf el texto PDF con color verde */
+    content: " PDF";
+    color: green;
+}
+
