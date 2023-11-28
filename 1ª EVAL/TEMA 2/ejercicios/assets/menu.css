@@ -1,0 +1,33 @@
+nav ul{
+    display: flex;
+
+}
+
+nav li{
+    list-style: none;
+    width: 20%;
+    text-align: center;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px;
+    background-color: #d16344;
+    color: #d7bf5e;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+nav ul li a:hover, nav ul li a.activo{
+    background-color: #d7bf5e;
+    color: #d16344;
+}
+
+/* <!-- filas impares de color distino a pares -->  */
+/* última fila de cada celda de otro color de texto */
+
+
+
+
+
