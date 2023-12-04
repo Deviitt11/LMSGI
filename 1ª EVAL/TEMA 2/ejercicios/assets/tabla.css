@@ -1,0 +1,28 @@
+table {
+    width: 75%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+}
+
+tr {
+    transition: all 0.3s;
+}
+
+tr:nth-child(odd) {
+    background-color: #b2bb91;
+}
+
+tr:hover, tr:hover td:last-child {
+    background-color: #83555e;
+}
+
+td {
+    padding: 6px 3px;
+}
+
+td:last-child {
+    background-color: #333;
+    color: white;
+    border-bottom: 1px solid white;
+    transition: all 0.3s;
+}
