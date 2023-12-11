@@ -1,0 +1,27 @@
+nav.superior ul {
+    display: flex;
+    width: 100%;
+}
+
+nav.superior ul li {
+    list-style: none;
+    width: 20%;
+}
+
+nav.superior ul li a {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    padding: 3px 5px;
+    border: 1px solid rgb(2, 54, 2);
+    transition: all 0.4s;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+nav.superior ul li a:hover, nav.superior ul li a.activo {
+    background-color: rgb(160, 219, 160);
+    color: #333333;
+}
