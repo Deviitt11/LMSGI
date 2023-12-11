@@ -1,0 +1,17 @@
+div.oculto, div.scroll{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.oculto{
+    overflow: hidden;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+.relleno img{
+    
+}
