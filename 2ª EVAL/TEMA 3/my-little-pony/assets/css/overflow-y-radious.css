@@ -1,0 +1,40 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+
+.oculto{
+    overflow: hidden;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+.redondo{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.redondeado{
+    border-radius: 15px 25px 100px 0;
+    overflow: hidden;
+}
+
+.relleno img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.redondo img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.redondeado img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}

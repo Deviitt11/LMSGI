@@ -1,0 +1,38 @@
+div{
+    width: 500px;
+    height: 500px;
+    border: solid 2px red;
+    position: relative;
+}
+
+div div{
+    border: none;
+    width: 150px;
+    height: 150px;
+}
+
+div div:nth-child(1){
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div div:nth-child(2){
+    background-color: green;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 0;
+}
+
+div div:nth-child(3){
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+div div:nth-child(4){
+    background-color: orange;
+}
