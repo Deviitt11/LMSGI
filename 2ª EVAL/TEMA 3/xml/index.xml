@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./assets/css/styles.css" type="text/css"?>
+
+
+<libreria>
+
+    <libros>
+        <libro>
+            <autor>Anne Frank</autor>
+            <titulo>El diario de Anne Frank</titulo>
+            <fechaEdicion>1965</fechaEdicion>
+            <resumen>Diario de una adolescente judía durante la ocupación nazi</resumen>
+            <nPaginas>365</nPaginas>
+            <precio>12</precio>
+        </libro>
+
+        <libro>
+            <autor>J.K.Rowling</autor>
+            <titulo>Harry Potter y la piedra filosofal</titulo>
+            <fechaEdicion>1997</fechaEdicion>
+            <resumen>Diario de un mago adolescente</resumen>
+            <nPaginas></nPaginas>
+            <precio>16</precio>
+        </libro>
+
+        <!-- <libro>
+            <autor></autor>
+            <titulo></titulo>
+            <fechaEdicion></fechaEdicion>
+            <resumen></resumen>
+            <nPaginas></nPaginas>
+            <precio></precio>
+        </libro> -->
+
+
+
+    </libros>
+</libreria>
