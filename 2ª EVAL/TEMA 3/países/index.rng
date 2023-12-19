@@ -1,0 +1,56 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <ref name="mundoContent" />
+    </start>
+    <define name="mundoContent">
+        <element name="mundo">
+            <ref name="paisesContent" />
+        </element>
+    </define>
+    <define name="paisesContent">
+        <element name="paises">
+            <oneOrMore>
+                <ref name="paisContent" />
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="paisContent">
+        <element name="pais">
+            <ref name="nombreContent" />
+            <ref name="capitalContent" />
+            <ref name="poblacionContent" />
+            <ref name="continenteContent" />
+            <ref name="idiomaContent" />
+        </element>
+    </define>
+    <define name="nombreContent">
+        <element name="nombre">
+            <data type="cantidad">
+                <param name="minInclusive">1</param>
+                <param name="maxInclusive">55</param>
+            </data>
+        </element>+
+    </define>
+    <define name="capitalContent">
+        <element name="capital">
+            <text />
+        </element>
+    </define>
+    <define name="poblacionContent">
+        <element name="poblacion">
+            <text />
+            <attribute name="unidadMedida" />
+        </element>
+    </define>
+    <define name="continenteContent">
+        <element name="continente">
+            <text />
+        </element>
+    </define>
+    <define name="idiomaContent">
+        <element name="idioma">
+            <text />
+        </element>
+    </define>
+</grammar>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="index.rng"?>
+<mundo>
+
+    <paises>
+        <pais>
+            <nombre>España</nombre>
+            <capital>Madrid</capital>
+            <poblacion unidadMedida = "millones">47.52</poblacion>
+            <continente>Europa</continente>
+            <idioma>Castellano</idioma>
+        </pais>
+
+        <pais>
+            <nombre>Portugal</nombre>
+            <capital>Lisboa</capital>
+            <poblacion unidadMedida = "millones">10.33</poblacion>
+            <continente>Europa</continente>
+            <idioma>Portugués</idioma>
+        </pais>
+
+        <pais>
+            <nombre>Alemania</nombre>
+            <capital>Berlín</capital>
+            <poblacion unidadMedida = "millones">83.2</poblacion>
+            <continente>Europa</continente>
+            <idioma>Alemán</idioma>
+        </pais>
+
+    </paises>
+</mundo>

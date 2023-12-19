@@ -1,26 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-stylesheet href="./assets/css/styles.css" type="text/css"?>
 
 
+
+
+<?xml-model href="index.rng"?>
 <libreria>
 
     <libros>
         <libro>
-            <autor>Anne Frank</autor>
             <titulo>El diario de Anne Frank</titulo>
+            <autor>Anne Frank</autor>
             <fechaEdicion>1965</fechaEdicion>
             <resumen>Diario de una adolescente judía durante la ocupación nazi</resumen>
             <nPaginas>365</nPaginas>
-            <precio>12</precio>
+            <precio moneda = "euros">12</precio>
+            <editorial>
+                <nomEditorial></nomEditorial>
+                <contacto></contacto>
+            </editorial>
+            <!-- <formato estilo = "" -->
         </libro>
 
         <libro>
-            <autor>J.K.Rowling</autor>
             <titulo>Harry Potter y la piedra filosofal</titulo>
+            <autor>J.K.Rowling</autor>
             <fechaEdicion>1997</fechaEdicion>
             <resumen>Diario de un mago adolescente</resumen>
             <nPaginas></nPaginas>
-            <precio>16</precio>
+            <precio moneda = "euros">16</precio>
+            <editorial>
+                <nomEditorial></nomEditorial>
+                <contacto></contacto>
+            </editorial>
+        </libro>
+
+        <libro>
+            <titulo>Harry Popper y la caída de Jimmy al río</titulo>
+            <autor>Yo</autor>
+            <fechaEdicion>2014</fechaEdicion>
+            <resumen>El famoso mago Harry Potter intenta rescatar al ultra Jimmy tras ser lanzado al río por hinchas del Atleti</resumen>
+            <nPaginas>155</nPaginas>
+            <precio moneda = "euros">33</precio>
+            <editorial>
+                <nomEditorial></nomEditorial>
+                <contacto></contacto>
+            </editorial>
+            <!-- <formato estilo = "" -->
         </libro>
 
         <!-- <libro>
@@ -31,8 +58,6 @@
             <nPaginas></nPaginas>
             <precio></precio>
         </libro> -->
-
-
 
     </libros>
 </libreria>
