@@ -1,0 +1,38 @@
+html{
+    background-color: green;
+    padding-top: 2rem;
+}
+
+body {
+    background-color: rgb(0, 128, 107);
+    width: 980px;
+    margin: auto;
+    font-size: 16px;
+    padding: 2rem;
+}
+
+header{
+    background-color: rgb(170, 255, 0);
+    padding: 2rem;
+    border: 2rem solid rgb(236, 81, 109);
+    margin-bottom: 2rem;
+}
+
+img{
+    width: 100%;
+}
+
+main{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+footer{
+    padding: 2rem;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}

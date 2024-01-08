@@ -1,0 +1,13 @@
+table {
+    width: 100%;
+}
+
+table td{
+    width: 25%;
+    padding: 1rem;
+}
+
+table td:last-child:hover p{
+    color: pink;
+}
+
