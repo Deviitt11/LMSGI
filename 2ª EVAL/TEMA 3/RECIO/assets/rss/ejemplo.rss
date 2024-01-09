@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+    <channel>
+        <title>Item 1</title>
+        <description>Descripción del item</description>
+        <link>https://elrincondeljardinero.000webhostapp.com/</link>
+        <language>es</language>
+        <pubDate>Mon, 08 Jan 2024 13:23:24 +0100</pubDate>
+
+        <item>
+            <title>Item 2</title>
+            <description>Descripción del item 1</description>
+            <link>https://elrincondeljardinero.000webhostapp.com/</link>
+            <language>es</language>
+            <pubDate>Mon, 08 Jan 2024 13:23:24 +0100</pubDate>
+        </item>
+
+        <item>
+            <title>Item 3</title>
+            <description>Descripción del item 2</description>
+            <link>https://elrincondeljardinero.000webhostapp.com/</link>
+            <language>es</language>
+            <pubDate>Mon, 08 Jan 2024 13:23:24 +0100</pubDate>
+        </item>
+
+        <item>
+            <title>Item 4</title>
+            <description><![CDATA[ 
+                <h1> Marco Reus </h1>
+                <img src = "https://phantom-marca.unidadeditorial.es/f6e2103436fb50859a5167f850e248b4/resize/1200/f/webp/assets/multimedia/imagenes/2022/02/20/16453915466200.jpg´"
+                alt = "Marco Reus, el mejor jugador de fútbol de la historia"> ]]>
+            </description>  
+            <link>https://elrincondeljardinero.000webhostapp.com/</link>
+            <language>es</language>
+            <pubDate>Mon, 08 Jan 2024 13:23:24 +0100</pubDate>
+        </item>
+    </channel>
+</rss>
