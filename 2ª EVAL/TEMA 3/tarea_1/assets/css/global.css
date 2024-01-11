@@ -1,0 +1,49 @@
+body{
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    color: blue;
+    margin-bottom: 0.5rem;
+}
+
+img{
+    width: 100%;
+}
+
+.logo{
+    margin-top: 2rem;
+    width: 130px;
+}
+
+.cabecera{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 2rem;
+}
+
+p .cabecera{
+    font-size: 2rem;
+}
+
+.peque .cabecera{
+    font-size: 1rem;
+}
+
+.piedepagina{
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
