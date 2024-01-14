@@ -30,11 +30,11 @@ img{
     padding-bottom: 2rem;
 }
 
-p .cabecera{
+.cabecera p{
     font-size: 2rem;
 }
 
-.peque .cabecera{
+.peque{
     font-size: 1rem;
 }
 

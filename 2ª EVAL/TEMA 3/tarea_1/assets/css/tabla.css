@@ -1,6 +1,6 @@
 table{
     width: 80%;
-    text-align: center;
+    margin: auto;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
@@ -13,7 +13,7 @@ td{
     width: 50%;
 }
 
-td:last-child{
+table tr td:last-child{
     padding: 2rem;
     vertical-align: bottom;
     background-color: #ccc;
