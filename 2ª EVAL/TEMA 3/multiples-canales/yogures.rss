@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Yogures</title>
+        <description>Mis yogures</description>
+        <link>https://www.supermercaditolaalegria.com/yogures.html</link>
+        <language>es</language>
+        <item>
+            <title>Danone Limón</title>
+            <description>Danone</description>
+            <link>https://www.supermercaditolaalegria.com/danone-limon.html</link>
+            <pubDate>Mon, 15 Jan 2024 13:23:24 +0100</pubDate>
+        </item>
+        <item>
+            <title>Kaiku</title>
+            <description>Viva Kaiku</description>
+            <link>https://www.supermercaditolaalegria.com/kaiku.html</link>
+            <pubDate>Mon, 15 Jan 2024 13:23:24 +0100</pubDate>
+        </item>
+        <item>
+            <title>Vitaline</title>
+            <description>Viva Vitaline</description>
+            <link>https://www.supermercaditolaalegria.com/vitaline.html</link>
+            <pubDate>Mon, 15 Jan 2024 13:23:24 +0100</pubDate>
+        </item>
+    </channel>
+</rss>
