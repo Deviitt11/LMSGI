@@ -1,15 +1,13 @@
 table{
     width: 80%;
-    margin: auto;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin: 4rem auto;
 }
 
-tr:hover{
+table tr:hover{
     background-color: black;
 }
 
-td{
+table tr td{
     width: 50%;
 }
 

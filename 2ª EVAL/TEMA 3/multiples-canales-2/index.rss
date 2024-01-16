@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Tenis</title>
+        <description>Bienvenido a mi página (nada genérica) de tenis!</description>
+        <link>http://www.tenis.com</link>
+        <language>es</language>
+
+        <item>
+            <title>Marcas</title>
+            <description>Las marcas que te recomiendo si te gusta el tenis</description>
+            <link>http://www.tenis.com/marcas.html</link>
+            <pubDate>Tue, 16 Jan 2024 12:10:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Tenistas</title>
+            <description>Quién es quién en el tenis international</description>
+            <link>http://www.tenis.com/tenistas.html</link>
+            <pubDate>Tue, 16 Jan 2024 12:10:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Mark Evans</title>
+            <description>El mejor tenista de la historia</description>
+            <link>http://www.tenis.com/markevans.html</link>
+            <pubDate>Tue, 16 Jan 2024 12:10:00 +0100</pubDate>
+        </item>
+       
+    </channel>
+</rss>
