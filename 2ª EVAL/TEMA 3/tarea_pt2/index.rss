@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Magic the Gathering</title>
+        <description>Pequeña página web del juego de cartas coleccionables</description>
+        <link>http://magic.com</link>
+        <language>es</language>
+
+        <item>
+            <title>Criaturas</title>
+            <description>Descripción del tipo de carta nº1</description>
+            <link>http://magic.com/criaturas.html</link>
+            <pubDate>Thu, 18 Jan 2024 19:35:00 +0100</pubDate>
+        </item>
+
+        <item>
+            <title>Encantamientos</title>
+            <description>Descripción del tipo de carta nº2</description>
+            <link>http://magic.com/encantamientos.html</link>
+            <pubDate>Thu, 18 Jan 2024 19:35:00 +0100</pubDate>
+        </item>
+
+        <item>
+            <title>Artefactos</title>
+            <description>Descripción del tipo de carta nº3</description>
+            <link>http://magic.com/artefactos.html</link>
+            <pubDate>Thu, 18 Jan 2024 19:35:00 +0100</pubDate>
+        </item>
+        
+    </channel>
+</rss>

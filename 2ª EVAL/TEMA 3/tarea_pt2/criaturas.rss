@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Criaturas</title>
+        <description>Descripción del tipo de carta nº1</description>
+        <link>http://magic.com/criaturas.html</link>
+        <language>es</language>
+
+        <item>
+            <title>Gobbling</title>
+            <description>Descripción de la criatura nº1</description>
+            <link>http://magic.com/gobbling.html</link>
+            <pubDate>Thu, 18 Jan 2024 19:40:00 +0100</pubDate>
+        </item>
+
+        <item>
+            <title>Druida</title>
+            <description>Descripción de la criatura nº2</description>
+            <link>http://magic.com/druida.html</link>
+            <pubDate>Thu, 18 Jan 2024 19:35:00 +0100</pubDate>
+        </item>
+
+        <item>
+            <title>Gato</title>
+            <description>Descripción de la criatura nº3</description>
+            <link>http://magic.com/gato.html</link>
+            <pubDate>Thu, 18 Jan 2024 19:35:00 +0100</pubDate>
+        </item>
+
+    </channel>
+
+</rss>

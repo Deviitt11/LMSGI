@@ -1,0 +1,21 @@
+table{
+    width: 80%;
+    margin: 4rem auto;
+}
+
+table tr td{
+    padding: 1rem;
+    width: calc(100% /3);
+}
+
+table tr td img{
+    margin-bottom: 0.5rem;
+}
+
+table tr td h3, p{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+}
+
+
