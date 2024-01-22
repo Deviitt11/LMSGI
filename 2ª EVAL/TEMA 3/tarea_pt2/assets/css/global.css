@@ -45,3 +45,18 @@ img{
     text-align: center;
 }
 
+.piedepagina ul{
+    margin-bottom: 1rem;
+    
+}
+
+.piedepagina a{
+    color: red;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.piedepagina a:hover{
+    letter-spacing: 2px;
+}
+
