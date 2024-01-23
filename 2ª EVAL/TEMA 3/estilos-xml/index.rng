@@ -1,0 +1,88 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <ref name="libreriaContent" />
+    </start>
+    <define name="libreriaContent">
+        <element name="libreria">
+            <ref name="librosContent" />
+        </element>
+    </define>
+    <define name="librosContent">
+        <element name="libros">
+            <oneOrMore>
+                <ref name="libroContent" />
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="libroContent">
+        <element name="libro">
+            <interleave>
+                <ref name="tituloContent" />
+                <ref name="autorContent" />
+                <ref name="fechaEdicionContent" />
+                <ref name="resumenContent" />
+                <ref name="nPaginasContent" />
+                <ref name="precioContent" />
+                <optional>
+                    <ref name="editorialContent" />
+                </optional>
+            </interleave>
+        </element>
+    </define>
+    <define name="tituloContent">
+        <element name="titulo">
+            <text />
+        </element>
+    </define>
+    <define name="autorContent">
+        <element name="autor">
+            <text />
+        </element>
+    </define>
+    <define name="fechaEdicionContent">
+        <element name="fechaEdicion">
+            <text />
+        </element>
+    </define>
+    <define name="resumenContent">
+        <element name="resumen">
+            <text />
+        </element>
+    </define>
+    <define name="nPaginasContent">
+        <element name="nPaginas">
+            <text />
+        </element>
+    </define>
+    <define name="precioContent">
+        <element name="precio">
+            <data type="decimal">
+                <param name="minInclusive">5</param>
+                <param name="maxInclusive">100</param>
+            </data>
+            <attribute name="moneda">
+                <data type="string">
+                    <param name="minLength">1</param>
+                    <param name="maxLength">5</param>
+                </data>
+            </attribute>
+        </element>
+    </define>
+    <define name="editorialContent">
+        <element name="editorial">
+            <ref name="nomEditorialContent" />
+            <ref name="contactoContent" />
+        </element>
+    </define>
+    <define name="nomEditorialContent">
+        <element name="nomEditorial">
+            <empty />
+        </element>
+    </define>
+    <define name="contactoContent">
+        <element name="contacto">
+            <empty />
+        </element>
+    </define>
+</grammar>
