@@ -17,17 +17,21 @@
     </define>
     <define name="libroContent">
         <element name="libro">
-            <interleave>
                 <ref name="tituloContent" />
                 <ref name="autorContent" />
                 <ref name="fechaEdicionContent" />
                 <ref name="resumenContent" />
-                <ref name="nPaginasContent" />
+                <zeroOrMore>
+                    <ref name="nPaginasContent" />
+                </zeroOrMore>
                 <ref name="precioContent" />
+                <optional>
+                    <ref name="portadaContent" />
+                </optional>
                 <optional>
                     <ref name="editorialContent" />
                 </optional>
-            </interleave>
+                
         </element>
     </define>
     <define name="tituloContent">
@@ -58,7 +62,7 @@
     <define name="precioContent">
         <element name="precio">
             <data type="decimal">
-                <param name="minInclusive">5</param>
+                <param name="minInclusive">6</param>
                 <param name="maxInclusive">100</param>
             </data>
             <attribute name="moneda">
@@ -83,6 +87,11 @@
     <define name="contactoContent">
         <element name="contacto">
             <empty />
+        </element>
+    </define>
+    <define name="portadaContent">
+        <element name="portada">
+            <text />
         </element>
     </define>
 </grammar>

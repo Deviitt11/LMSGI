@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="./index.xslt" type="text/xsl"?>
-<?xml-model href="index.rng"?>
+<?xml-model href="./index.rng"?>
 
 <libreria>
     <libros>
         <libro>
-            <titulo>El diario de Anne Frank</titulo>
-            <autor>Anne Frank</autor>
+            <titulo>El arte de la doma clásica</titulo>
+            <autor>Sylvia Stanier</autor>
             <fechaEdicion>1965</fechaEdicion>
-            <resumen>Diario de una adolescente judía durante la ocupación nazi</resumen>
+            <resumen>Desde qué es la Doma Clásica hasta las ayudas y movimientos mas avanzados, pasando por una visión general a la influencia del jinete sobre el caballo, la morfología de éste, los equipos, el entrenamiento, etc.</resumen>
             <nPaginas>365</nPaginas>
-            <precio moneda = "euros">12</precio>
+            <precio moneda = "euros">18</precio>
+            <portada>
+                https://www.edicionestutor.com/wp-content/uploads/2016/05/1-El-arte-de-la-doma-cl%C3%A1sica.-El-entrenamiento-desde-un-enfoque-cl%C3%A1sico-978-84-7902-641-7.jpg
+            </portada>
             <editorial>
                 <nomEditorial></nomEditorial>
                 <contacto></contacto>
             </editorial>
-            <!-- <formato estilo = "" -->
         </libro>
 
         <libro>
@@ -38,6 +40,9 @@
             <resumen>El famoso mago Harry Potter intenta rescatar al ultra Jimmy tras ser lanzado al río por hinchas del Atleti</resumen>
             <nPaginas>155</nPaginas>
             <precio moneda = "euros">33</precio>
+            <portada>
+                https://www.elindependiente.com/wp-content/uploads/2018/06/jimmy.jpg
+            </portada>
             <editorial>
                 <nomEditorial></nomEditorial>
                 <contacto></contacto>

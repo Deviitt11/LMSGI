@@ -1,0 +1,21 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <ref name="root-element"/>
+    </start>
+    <define name="pizzaContent">
+            <element name="pizza">
+                <ref name="nombreContent"></ref>
+                <ref name="precioContent"></ref>
+                <ref name="masaContent"></ref>
+                <ref name="bordeContent"></ref>
+                <ref name="fotoContent"></ref>
+                <ref name="toppingContent"></ref>
+            </element>
+    </define>
+    <define name="">
+        <element name=""></element>
+        <text></text>
+    </define>
+
+</grammar>

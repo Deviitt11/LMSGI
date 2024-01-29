@@ -1,75 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-*{
-    display: block;
-
-
-}
-libreria{
-    background-color: #aaa;
+table{
+    background-color: red;
     font-family: 'Montserrat', sans-serif;
     width: 100%;
-
-
-
 }
 
-libros{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-libro{
-    width: 31vw;
-    min-height: 200px;
-    border-radius: 10px;
-    border: solid 2px #999;
-    overflow: scroll 2px #999;
-    padding: 1rem;
+table tr:nth-child(even){
     background-color: white;
 }
 
-titulo{
-    color: red;
-    font-size: 2rem;
-    font-weight: bold;
+table tr th, table tr td{
+    padding: 1rem;
 }
 
-autor{
-    font-size: 1.5rem;
-    font-style: italic;
-    text-align: right;
-}
-
-fechaEdicion{
-    text-align: right;
-    margin-bottom: 0.5rem;
-}
-
-precio{
-    font-weight: bold;
+table tr td:last-child{
     text-align: center;
-    font-size: 2rem;
 }
 
-nPaginas{
-    font-style: italic;
-    margin-top: 0.5rem;
-}
-
-@media (max-width: 1400px) {
-    libro{
-        width: 45%;
-
-    }
-}
-
-@media (max-width: 700px) {
-    libro{
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-
-    }
+table tr td img{
+    width: 150px;
 }
