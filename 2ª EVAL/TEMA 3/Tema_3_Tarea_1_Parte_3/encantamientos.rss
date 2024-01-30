@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Todo sobre las cartas de encantamientos de Magic the Gathering, The Lost Caverns of Ixalan"</title>
+        <description>Aquí iria la descripción sobre que son las tarjetas de encantamientos y eso.</description>
+        <link>http://www.magicthegathering.com/encantamientos.html</link>
+        <language>es</language>
+        <item>
+            <title>Presencia de hechicera</title>
+            <description>Es una hecichera que... está... presente</description>
+            <link>http://www.magicthegathering.com/presenciadehechicera.html</link>
+            <pubDate>Tue, 30 Jan 2024 20:30:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Encantamiento de alteración</title>
+            <description>Como cuando tomas demasiado Red Bull o algo así.</description>
+            <link>http://www.magicthegathering.com/druiencantamientodealteracion.html</link>
+            <pubDate>Tue, 30 Jan 2024 20:30:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Encantamiento copia</title>
+            <description>El "Ctrl + c" de los encantamientos.</description>
+            <link>http://www.magicthegathering.com/encantamientocopia.html</link>
+            <pubDate>Tue, 30 Jan 2024 20:30:00 +0100</pubDate>
+        </item>
+    </channel>
+</rss>

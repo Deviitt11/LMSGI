@@ -1,0 +1,18 @@
+table.items {
+    width: 80%;
+    margin: 4rem auto;
+}
+
+table.items tr td {
+    width: calc(100% / 3);
+    padding: 1rem;
+}
+
+table.items tr td img{
+    padding-bottom: 0.5rem;
+}
+
+table.items tr td p, table.items tr td h3{
+    padding: 0 1rem;
+}
+

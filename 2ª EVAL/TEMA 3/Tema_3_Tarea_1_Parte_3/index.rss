@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Juego de cartas Magix de Gathering, The Lost Caverns of Ixalan</title>
+        <description>Aquí iria la descripción sobre nuestra página y de que va.</description>
+        <link>http://www.magicthegathering.com</link>
+        <langauge>es</langauge>
+        <item>
+            <title>Criaturas</title>
+            <description>Criatura (en Inglés, creature) es un tipo de carta que representa ciertos permanentes en Magic. Hablando de la ambientación, las criaturas representan a guerreros, sicarios, bestias y monstruos que sirven al jugador, generalmente para luchar de su parte. Dado que casi todas las criaturas pueden atacar cada turno para reducir la vida del oponente, o pueden bloquear a los atacantes del oponente, las cartas de criatura son fundamentales para gran cantidad de estrategias de mazo.</description>
+            <link>http://www.magicthegathering.com/criaturas.html</link>
+            <pubDate>Wed, 17 Jan 2024 11:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Encantamientos</title>
+            <description>Encantamiento (en Inglés, Enchantment) es un tipo de carta para ciertos permanentes en Magic cuyos efectos no suelen dejar con facilidad el campo de batalla. Hablando en términos de ambientación, los encantamientos son manifestaciones mágicas persistentes, a menudo creadas por lanzadores de conjuros.</description>
+            <link>http://www.magicthegathering.com/encantamientos.html</link>
+            <pubDate>Thu, 18 Jan 2024 11:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Artefactos</title>
+            <description>Un artefacto es un permanente incoloro con coste de maná.</description>
+            <link>http://www.magicthegathering.com/artefactos.html</link>
+            <pubDate>Fri, 19 Jan 2024 11:00:00 +0100</pubDate>
+        </item>
+    </channel>
+</rss>

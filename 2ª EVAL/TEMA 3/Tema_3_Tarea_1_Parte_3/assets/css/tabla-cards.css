@@ -1,0 +1,18 @@
+table.cards {
+    width: 80%;
+    margin: 4rem auto;
+}
+
+table.cards tr:hover {
+    background-color: black;
+}
+
+table.cards tr td {
+    width: 50%;
+}
+
+table.cards tr td:last-child {
+    padding: 2rem;
+    vertical-align: bottom;
+    background-color: #ccc;
+}

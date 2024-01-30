@@ -1,0 +1,13 @@
+nav{
+    width: 100%;
+    background-color: white;
+    border-color: rgb(232, 70, 1);
+    color: white;
+}
+
+div:hover .activo{
+    background-color: white;
+    color: black;
+}
+
+

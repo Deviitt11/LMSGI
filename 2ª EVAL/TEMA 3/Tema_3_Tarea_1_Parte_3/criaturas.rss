@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Todo sobre las cartas de criaturas Magix de Gathering, The Lost Caverns of Ixalan</title>
+        <description>Aquí iria la descripción sobre que son las tarjetas de criaturas y eso.</description>
+        <link>http://www.magicthegathering.com/criaturas.html</link>
+        <language>es</language>
+        <item>
+            <title>Gobling</title>
+            <description>Es un gobling mazo feo.</description>
+            <link>http://www.magicthegathering.com/gobling.html</link>
+            <pubDate>Wed, 17 Jan 2024 11:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Druida</title>
+            <description>Es un druida humano.</description>
+            <link>http://www.magicthegathering.com/druida.html</link>
+            <pubDate>Thu, 18 Jan 2024 11:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Gato</title>
+            <description>Es un gato y lo mola todo.</description>
+            <link>http://www.magicthegathering.com/gato.html</link>
+            <pubDate>Fri, 19 Jan 2024 11:00:00 +0100</pubDate>
+        </item>
+    </channel>
+</rss>
