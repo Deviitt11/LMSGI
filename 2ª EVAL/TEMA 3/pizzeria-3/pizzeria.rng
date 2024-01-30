@@ -6,6 +6,7 @@
     <define name="pizzeriaContent">
         <element name="pizzeria">
             <ref name="pizzasContent" />
+            <ref name="vinosContent" />
         </element>
     </define>
     <define name="pizzasContent">
@@ -70,6 +71,32 @@
     </define>
     <define name="extraContent">
         <element name="extra">
+            <text />
+        </element>
+    </define>
+
+
+    <define name="vinosContent">
+        <element name="vinos">
+            <oneOrMore>
+                <ref name="vinoContent" />
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="vinoContent">
+        <element name="vino">
+            <ref name="marcaContent" />
+            <ref name="tipoContent" />
+            <ref name="precioContent" />
+        </element>
+    </define>
+    <define name="marcaContent">
+        <element name="marca">
+            <text />
+        </element>
+    </define>
+    <define name="tipoContent">
+        <element name="tipo">
             <text />
         </element>
     </define>

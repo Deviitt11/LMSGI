@@ -8,7 +8,8 @@
             <precio moneda="euros">12</precio>
             <masa masaTipo="integral">Fina</masa>
             <borde>Fina</borde>
-            <foto>https://www.hogarmania.com/archivos/202303/pizza-margarita-portada-1280x720x80xX.jpg</foto>
+            <foto>
+                https://www.hogarmania.com/archivos/202303/pizza-margarita-portada-1280x720x80xX.jpg</foto>
             <topping></topping>
             <tamaño>Familiar</tamaño>
             <extra>Queso</extra>
@@ -19,7 +20,8 @@
             <precio moneda="euros">12</precio>
             <masa masaTipo="integral">Fina</masa>
             <borde>Relleno</borde>
-            <foto>https://www.cocinatis.com/archivos/202207/CTIS0093-receta-pizza-cuatro-quesos_B3N6zYV_large_16x9.jpg</foto>
+            <foto>
+                https://www.cocinatis.com/archivos/202207/CTIS0093-receta-pizza-cuatro-quesos_B3N6zYV_large_16x9.jpg</foto>
             <topping></topping>
         </pizza>
         <pizza>
@@ -31,4 +33,17 @@
             <topping></topping>
         </pizza>
     </pizzas>
+
+    <vinos>
+        <vino>
+            <marca>Uno</marca>
+            <tipo>Tinto</tipo>
+            <precio moneda="euros">12</precio>
+        </vino>
+        <vino>
+            <marca>Dos</marca>
+            <tipo>Blanco</tipo>
+            <precio moneda="euros">15</precio>
+        </vino>
+    </vinos>
 </pizzeria>
