@@ -1,0 +1,18 @@
+table{
+    width: 80%;
+    margin: 4rem auto;
+}
+
+table tr:hover{
+    background-color: black;
+}
+
+table tr td{
+    width: 50%;
+}
+
+table tr td:last-child{
+    padding: 2rem;
+    vertical-align: bottom;
+    background: #ccc;
+}
