@@ -1,0 +1,10 @@
+<!ELEMENT jardin (flores)>
+<!ELEMENT flores (flor+)>
+<!ELEMENT flor (nombre,precio+,familia,origen,oferta?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre color NMTOKEN #REQUIRED>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio cantidad NMTOKEN #REQUIRED>
+<!ELEMENT familia (#PCDATA)>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT oferta (#PCDATA)>

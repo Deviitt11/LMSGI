@@ -1,13 +1,31 @@
-div nav{
-    width: 100%;
-    background-color: white;
-    border-color: rgb(232, 70, 1);
-    color: white;
+.menuprincipal{
+    margin-top: 2rem;
 }
 
-div:hover .activo{
-    background-color: white;
+.menuprincipal ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+}
+
+.menuprincipal ul li{
+    width: 25%;
+}
+
+.menuprincipal ul li a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(232, 70, 1);
+    border: 1px solid rgb(232, 70, 1);
+    display: block;
+    padding: 1rem;
+    transition: all 0.4s;
+}
+
+.menuprincipal ul li a:hover, .menuprincipal ul li a.activo{
     color: black;
+    background-color: white;
+    letter-spacing: 2px;
 }
 
 

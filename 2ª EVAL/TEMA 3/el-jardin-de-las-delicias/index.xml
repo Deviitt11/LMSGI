@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="index.rng"?>
+<jardin>
+    <flores>
+        <flor>
+            <nombre color = "rojo">Rosa</nombre>
+            <precio cantidad = "individual">4</precio>
+            <precio cantidad = "docena"></precio>
+            <familia>Rosáceas</familia>
+            <origen>Brasil</origen>
+            <oferta>3</oferta>
+        </flor>
+        <flor>
+            <nombre color = "rosa">Petunia</nombre>
+            <precio cantidad = "unidad">1</precio>
+            <precio cantidad = "docena">10</precio>
+            <familia>Petunias</familia>
+            <origen>Inglaterra</origen>
+            <oferta>3</oferta>
+        </flor>
+        <flor>
+            <nombre color = "amarillo">Tulipán</nombre>
+            <precio cantidad = "unidad">1</precio>
+            <precio cantidad = "docena">10</precio>
+            <familia>Bulbáceas</familia>
+            <origen>Holanda</origen>
+        </flor>
+    </flores>
+</jardin>

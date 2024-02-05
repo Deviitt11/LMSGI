@@ -1,0 +1,59 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <ref name="jardinContent"/>
+    </start>
+    <define name="jardinContent">
+            <element name="jardin">
+                <ref name = "floresContent" />
+            </element>
+    </define>
+    <define name="floresContent">
+        <element name = "flores">
+            <oneOrMore>
+                <ref name="florContent" />
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="florContent">
+        <element name = "flor">
+            <ref name="nombreContent" />
+            <oneOrMore>
+                <ref name="precioContent" />
+            </oneOrMore>
+            <ref name="familiaContent" />
+            <ref name="origenContent" />
+            <optional>
+                <ref name="ofertaContent" />
+            </optional>
+        </element>
+    </define>
+    <define name="nombreContent">
+        <element name="nombre">
+            <attribute name="color" />
+            <text />
+        </element>
+    </define>
+    <define name="precioContent">
+        <element name="precio">
+            <attribute name="cantidad" />
+            <text />
+        </element>
+    </define>
+    <define name="familiaContent">
+        <element name="familia">
+            <text />
+        </element>
+    </define>
+    <define name="origenContent">
+        <element name="origen">
+            <text />
+        </element>
+    </define>
+    <define name="ofertaContent">
+        <element name="oferta">
+            <text />
+        </element>
+    </define>
+    
+</grammar>
