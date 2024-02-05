@@ -26,4 +26,12 @@
             <origen>Holanda</origen>
         </flor>
     </flores>
+    <arboles>
+        <arbol>
+            <nombre>Roble</nombre>
+            <precio cantidad = "unidad">125</precio>
+            <familia>Bellotas</familia>
+            <origen>Kanto</origen>
+        </arbol>
+    </arboles>
 </jardin>

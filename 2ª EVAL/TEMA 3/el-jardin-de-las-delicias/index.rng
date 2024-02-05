@@ -6,6 +6,7 @@
     <define name="jardinContent">
             <element name="jardin">
                 <ref name = "floresContent" />
+                <ref name = "arbolesContent" />
             </element>
     </define>
     <define name="floresContent">
@@ -54,6 +55,17 @@
         <element name="oferta">
             <text />
         </element>
+    </define>
+    <define name="arbolesContent">
+        <element name="arboles">
+            <ref name="arbolContent" />
+        </element>
+    </define>
+    <define name="arbolContent">
+        <ref name="nombreContent" />
+        <ref name="precioContent" />
+        <ref name="familiaContent" />
+        <ref name="origenContent" />
     </define>
     
 </grammar>
