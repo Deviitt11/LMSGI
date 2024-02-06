@@ -9,6 +9,7 @@
             <familia>Rosáceas</familia>
             <origen>Brasil</origen>
             <oferta>3</oferta>
+            <imagen>https://media.admagazine.com/photos/651159b4503c330e0a09a982/1:1/w_2250,h_2250,c_limit/rosas-cuidados-significado.jpg</imagen>
         </flor>
         <flor>
             <nombre color = "rosa">Petunia</nombre>
@@ -17,6 +18,7 @@
             <familia>Petunias</familia>
             <origen>Inglaterra</origen>
             <oferta>3</oferta>
+            <imagen>https://media.admagazine.com/photos/651159b4503c330e0a09a982/1:1/w_2250,h_2250,c_limit/rosas-cuidados-significado.jpg</imagen>
         </flor>
         <flor>
             <nombre color = "amarillo">Tulipán</nombre>
@@ -24,14 +26,23 @@
             <precio cantidad = "docena">10</precio>
             <familia>Bulbáceas</familia>
             <origen>Holanda</origen>
+            <imagen>https://media.admagazine.com/photos/651159b4503c330e0a09a982/1:1/w_2250,h_2250,c_limit/rosas-cuidados-significado.jpg</imagen>
         </flor>
     </flores>
     <arboles>
         <arbol>
-            <nombre>Roble</nombre>
+            <nombre color="">Roble</nombre>
             <precio cantidad = "unidad">125</precio>
             <familia>Bellotas</familia>
             <origen>Kanto</origen>
+        </arbol>
+    </arboles>
+    <arboles>
+        <arbol>
+            <nombre color="">Baobab</nombre>
+            <precio cantidad = "unidad">10</precio>
+            <familia>Abuelos</familia>
+            <origen>Oviedo</origen>
         </arbol>
     </arboles>
 </jardin>

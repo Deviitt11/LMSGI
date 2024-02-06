@@ -27,6 +27,7 @@
             <optional>
                 <ref name="ofertaContent" />
             </optional>
+            <ref name="imagenContent" />
         </element>
     </define>
     <define name="nombreContent">
@@ -56,16 +57,28 @@
             <text />
         </element>
     </define>
+    <define name="imagenContent">
+        <element name="imagen">
+            <text />
+        </element>
+    </define>
     <define name="arbolesContent">
         <element name="arboles">
-            <ref name="arbolContent" />
+            <oneOrMore>
+                <ref name="arbolContent" />
+            </oneOrMore>
         </element>
     </define>
     <define name="arbolContent">
         <ref name="nombreContent" />
-        <ref name="precioContent" />
-        <ref name="familiaContent" />
-        <ref name="origenContent" />
+            <oneOrMore>
+                <ref name="precioContent" />
+            </oneOrMore>
+            <ref name="familiaContent" />
+            <ref name="origenContent" />
+            <optional>
+                <ref name="ofertaContent" />
+            </optional>
+            <ref name="imagenContent" />
     </define>
-    
 </grammar>
