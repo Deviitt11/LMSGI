@@ -70,6 +70,7 @@
         </element>
     </define>
     <define name="arbolContent">
+        <element name = "arbol">
         <ref name="nombreContent" />
             <oneOrMore>
                 <ref name="precioContent" />
@@ -79,6 +80,9 @@
             <optional>
                 <ref name="ofertaContent" />
             </optional>
-            <ref name="imagenContent" />
+            <optional>
+                <ref name="imagenContent" />
+            </optional>
+        </element>
     </define>
 </grammar>
