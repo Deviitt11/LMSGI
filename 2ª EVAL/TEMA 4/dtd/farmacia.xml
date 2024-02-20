@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE farmacia SYSTEM "farmacia.dtd">
+<farmacia>
+    <medicamentos>
+        <medicamento>
+            <nombre fabricante = "pfizer">Viagra</nombre>
+            <precio>64</precio>
+            <presentacion>4</presentacion>
+            <presentacion>8</presentacion>
+            <presentacion>12</presentacion>
+            <caja>Cartón</caja>
+        </medicamento>
+        <medicamento>
+            <nombre fabricante = "Bayer">Aspirina</nombre>
+            <precio>4</precio>
+            <presentacion>12</presentacion>
+            <caja>Cartón</caja>
+        </medicamento>
+        <medicamento>
+            <nombre fabricante = "Moderna">Vacuna COVID19</nombre>
+            <precio>64</precio>
+            <presentacion>4</presentacion>
+            <frasco>Cristal</frasco>
+        </medicamento>
+    </medicamentos>
+</farmacia>

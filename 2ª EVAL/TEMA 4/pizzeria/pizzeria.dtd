@@ -1,0 +1,18 @@
+<!ELEMENT pizzeria (pizzas,vinos)>
+<!ELEMENT pizzas (pizza+)>
+<!ELEMENT pizza (nombre,precio,masa,borde,foto,topping,tamaño?,extra*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda NMTOKEN #REQUIRED>
+<!ELEMENT masa (#PCDATA)>
+<!ATTLIST masa masaTipo NMTOKEN #REQUIRED>
+<!ELEMENT borde (#PCDATA)>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT topping EMPTY>
+<!ELEMENT tamaño (#PCDATA)>
+<!ELEMENT extra (#PCDATA)>
+
+<!ELEMENT vinos (vino+)>
+<!ELEMENT vino (marca,tipo,precio)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>

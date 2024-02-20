@@ -1,0 +1,17 @@
+<!ELEMENT farmacia (medicamentos)>
+<!ELEMENT medicamentos (medicamento+)>
+<!ELEMENT medicamento (nombre,precio,presentacion+,(caja | frasco))>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre fabricante NMTOKEN #REQUIRED>
+<!-- 
+
+    NMTOKEN: una única palabra
+    CDATA: texto y/o números
+    #REQUIRED obligatorio incluir el atributo
+    #IMPLIED opcional incluir el atributo
+
+-->
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT presentacion (#PCDATA)>
+<!ELEMENT caja (#PCDATA)>
+<!ELEMENT frasco (#PCDATA)>
