@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE muebleria SYSTEM "muebleria.dtd"> -->
+<?xml-model href="muebleria.rng"?>
+<muebleria>
+    <interior>
+        <muebles>
+            <mueble>
+                <nombre></nombre>
+                <precio></precio>
+                <descripcion></descripcion>
+                <oferta temporada="San Valentín"></oferta>
+                <familia actualizado="sí"></familia>
+                <combinado></combinado>
+                <montaje></montaje>
+            </mueble>
+            <mueble>
+                <nombre></nombre>
+                <precio></precio>
+                <descripcion></descripcion>
+                <oferta></oferta>
+                <familia></familia>
+                <garantiaExtra></garantiaExtra>
+            </mueble>
+            <mueble>
+                <nombre></nombre>
+                <precio></precio>
+                <descripcion></descripcion>
+                <combinado></combinado>
+                <combinado></combinado>
+                <combinado></combinado>
+                <transporte></transporte>
+            </mueble>
+        </muebles>
+    </interior>
+
+    <exterior>
+        <muebles>
+            <mueble>
+                <nombre></nombre>
+                <precio></precio>
+                <descripcion></descripcion>
+                <oferta></oferta>
+                <combinado></combinado>
+                <montaje></montaje>
+            </mueble>
+        </muebles>
+    </exterior>
+</muebleria>

@@ -1,0 +1,103 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <ref name="muebleriaContent" />
+    </start>
+    <define name="muebleriaContent">
+        <element name="muebleria">
+            <ref name="interiorContent" />
+            <ref name="exteriorContent" />
+        </element>
+    </define>
+    <define name="interiorContent">
+        <element name="interior">
+            <ref name="mueblesContent" />
+        </element>
+    </define>
+    <define name="mueblesContent">
+        <element name="muebles">
+            <oneOrMore>
+                <ref name="muebleContent" />
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="muebleContent">
+        <element name="mueble">
+            <ref name="nombreContent" />
+            <ref name="precioContent" />
+            <ref name="descripcionContent" />
+            <optional>
+                <ref name="ofertaContent" />
+            </optional>
+            <optional>
+                <ref name="familiaContent" />
+            </optional>
+            <zeroOrMore>
+                <ref name="combinadoContent" />
+            </zeroOrMore>
+            <choice>
+                <ref name="montajeContent" />
+                <ref name="transporteContent" />
+                <ref name="garantiaExtraContent" />
+            </choice>
+        </element>
+    </define>
+    <define name="nombreContent">
+        <element name="nombre">
+            <text />
+        </element>
+    </define>
+    <define name="precioContent">
+        <element name="precio">
+            <text />
+        </element>
+    </define>
+    <define name="descripcionContent">
+        <element name="descripcion">
+            <text />
+        </element>
+    </define>
+    <define name="ofertaContent">
+        <element name="oferta">
+            <text />
+            <optional>
+                <attribute name="temporada" />
+            </optional>
+        </element>
+    </define>
+    <define name="familiaContent">
+        <element name="familia">
+            <text />
+            <optional>
+                <attribute name="actualizado">
+                    <value>sí</value>
+                </attribute>
+            </optional>
+        </element>
+    </define>
+    <define name="combinadoContent">
+        <element name="combinado">
+            <text />
+        </element>
+    </define>
+    <define name="montajeContent">
+        <element name="montaje">
+            <text />
+        </element>
+    </define>
+    <define name="transporteContent">
+        <element name="transporte">
+            <text />
+        </element>
+    </define>
+    <define name="garantiaExtraContent">
+        <element name="garantiaExtra">
+            <text />
+        </element>
+    </define>
+    <define name="exteriorContent">
+        <element name="exterior">
+            <ref name="mueblesContent" />
+        </element>
+    </define>
+</grammar>

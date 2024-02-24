@@ -1,21 +1,17 @@
-<!ELEMENT muebleria (exterior, interior)>
+<!ELEMENT muebleria (interior, exterior)>
 <!ELEMENT interior (muebles)>
 <!ELEMENT muebles (mueble+)>
-<!ELEMENT mueble (nombre,precio,descripcion, oferta?, familia?, combinado*, (montaje | transporte | garantiaExtra))>
+<!ELEMENT mueble (nombre, precio, descripcion, oferta?, familia?, combinado*, (montaje | transporte | garantiaExtra))>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT precio (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT oferta (#PCDATA)>
-<!ATTLIST oferta temporada CDATA #REQUIRED>
+<!ATTLIST oferta temporada CDATA #IMPLIED>
 <!ELEMENT familia (#PCDATA)>
-<!ATTLIST familia actualizado NMTOKEN #IMPLIED>
+<!ATTLIST familia actualizado NMTOKEN #FIXED "sí">
 <!ELEMENT combinado (#PCDATA)>
 <!ELEMENT montaje (#PCDATA)>
 <!ELEMENT transporte (#PCDATA)>
 <!ELEMENT garantiaExtra (#PCDATA)>
 
 <!ELEMENT exterior (muebles)>
-
-
-<choice>
-</choice>
