@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UT-F8"?>
+<?xml-model href="libreria.rng"?>
+<?xml-stylesheet href="libreria.dtd" type="text/xsl"?>
+
+<libreria>
+    <libros>
+        <libro>
+            <titulo>Dune</titulo>
+            <autor coautor="Usul Muad'Dib Kwisatz Haderach">Frank Herbert</autor>
+            <descripcion>Niño queda huerfano y comete crimenes de guerra religiosos en el espacio</descripcion>
+            <precio moneda="Euros">25</precio>
+            <edicionEspecial></edicionEspecial>
+            <portada>Agujero Negro engullendo una estrella</portada>
+            <paquete></paquete>
+            <transporte></transporte>
+            <descuento></descuento>
+            <regalo></regalo>
+        </libro>
+        <libro>
+            <titulo>El Necronomicón</titulo>
+            <autor coautor="Robert Bloch">H.P. Lovecraft</autor>
+            <descripcion>Bla bla horror bla bla tentaculos</descripcion>
+            <precio moneda="Euros">15</precio>
+            <edicionEspecial></edicionEspecial>
+            <portada>Hombre desnudo sentado frente a una calavera</portada>
+            <paquete></paquete>
+            <transporte></transporte>
+            <descuento></descuento>
+            <regalo></regalo>
+        </libro>
+    </libros>
+    <revistas>
+        <revista>
+            <titulo>DnD</titulo>
+            <autor coautor="Karlach">Ketheric Thorn</autor>
+            <descripcion>Pifia</descripcion>
+            <precio moneda="Euros">23</precio>
+            <edicionEspecial></edicionEspecial>
+            <portada>Un goblin siendo ejecutado</portada>
+            <paquete>Cartón de dnd</paquete>
+            <transporte></transporte>
+            <descuento>0%</descuento>
+            <regalo></regalo>
+            <extra suplemento="sí"></extra>
+        </revista>
+        <revista>
+            <titulo>SP</titulo>
+            <autor coautor="Jordi ENP">Nacho Vidal</autor>
+            <descripcion>+18</descripcion>
+            <precio moneda="Euros">7</precio>
+            <edicionEspecial>BBC</edicionEspecial>
+            <portada></portada>
+            <paquete></paquete>
+            <transporte></transporte>
+            <descuento>69%</descuento>
+            <regalo></regalo>
+            <extra suplemento="sí"></extra>
+        </revista>
+        <revista>
+            <titulo>HobbyConsolas</titulo>
+            <autor coautor="Shi Geru">Miya Moto</autor>
+            <descripcion>De furrys</descripcion>
+            <precio moneda="Euros">2</precio>
+            <edicionEspecial>Trifuerza Edition</edicionEspecial>
+            <portada>Un frame del zelda de la nes</portada>
+            <paquete></paquete>
+            <transporte></transporte>
+            <descuento>25%</descuento>
+            <regalo></regalo>
+            <extra suplemento="sí"></extra>
+        </revista>
+    </revistas>
+</libreria>

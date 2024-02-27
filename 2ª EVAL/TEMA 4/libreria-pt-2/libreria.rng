@@ -1,0 +1,141 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <ref name="libreriaContent"/>
+    </start>
+
+    <define name="libreriaContent">
+        <element name="libreria">
+            <ref name="librosContent"/>
+            <ref name="revistasContent"/>
+        </element>
+    </define>
+
+    <define name="librosContent">
+        <element name="libros">
+            <oneOrMore>
+                <ref name="libroContent"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="revistasContent">
+        <element name="revistas">
+            <oneOrMore>
+                <ref name="revistaContent"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="libroContent">
+        <element name="libro">
+            <ref name="tituloContent"/>
+            <ref name="autorContent"/>
+            <ref name="descripcionContent"/>
+            <ref name="precioContent"/>
+            <optional>
+                <ref name="edicionEspecialContent"/>
+            </optional>
+            <oneOrMore>
+                <ref name="portadaContent"/>
+            </oneOrMore>
+            <zeroOrMore>
+            <ref name="paqueteContent"/>
+            </zeroOrMore>
+            <ref name="transporteContent"/>
+            <ref name="descuentoContent"/>
+            <ref name="regaloContent"/>
+
+        </element>
+    </define>
+    <define name="revistaContent">
+        <element name="revista">
+            <ref name="tituloContent"/>
+            <ref name="autorContent"/>
+            <ref name="descripcionContent"/>
+            <ref name="precioContent"/>
+            <optional>
+                <ref name="edicionEspecialContent"/>
+            </optional>
+            <oneOrMore>
+                <ref name="portadaContent"/>
+            </oneOrMore>
+            <zeroOrMore>
+            <ref name="paqueteContent"/>
+            </zeroOrMore>
+            <ref name="transporteContent"/>
+            <ref name="descuentoContent"/>
+            <ref name="regaloContent"/>
+            <ref name="extraContent"/>
+        </element>
+    </define>
+
+    <define name="tituloContent">
+        <element name="titulo">
+            <text/>
+        </element>
+    </define>
+
+    <define name="autorContent">
+        <element name="autor">
+            <attribute name="coautor"/>
+            <text/>
+        </element>
+    </define>
+
+    <define name="descripcionContent">
+        <element name="descripcion">
+            <text/>
+        </element>
+    </define>
+
+    <define name="precioContent">
+        <element name="precio">
+            <text/>
+            <attribute name="moneda"/>
+        </element>
+    </define>
+
+    <define name="edicionEspecialContent">
+        <element name="edicionEspecial">
+            <text/>
+        </element>
+    </define>
+
+    <define name="portadaContent">
+        <element name="portada">
+            <text />
+        </element>
+    </define>
+
+    <define name="paqueteContent">
+        <element name="paquete">
+            <text/>
+        </element>
+    </define>
+
+    <define name="transporteContent">
+        <element name="transporte">
+            <empty/>
+        </element>
+    </define>
+
+    <define name="descuentoContent">
+        <element name="descuento">
+            <text/>
+        </element>
+    </define>
+
+    <define name="regaloContent">
+        <element name="regalo">
+            <empty/>
+        </element>
+    </define>
+
+    <define name="extraContent">
+        <element name="extra">
+            <text/>
+            <attribute name="suplemento"/>
+        </element>
+    </define>
+</grammar>

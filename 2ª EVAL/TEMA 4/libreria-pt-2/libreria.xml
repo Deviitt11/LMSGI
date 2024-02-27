@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE libreria SYSTEM "libreria.dtd">
+<libreria>
+    <castellano>
+        <libros>
+            <libro>
+                <autor></autor>
+                <edicionEspecial></edicionEspecial>
+                <saga></saga>
+                <paquete></paquete>
+                <descuento></descuento>
+                <idioma></idioma>
+            </libro>
+        </libros>
+    </castellano>
+    <otrosIdiomas>
+        <librosOI>
+            <libroOI>
+                <autor></autor>
+                <edicionEspecial></edicionEspecial>
+                <saga></saga>
+                <paquete></paquete>
+                <descuento></descuento>
+                <idioma></idioma>
+            </libroOI>
+        </librosOI>
+    </otrosIdiomas>
+</libreria>
