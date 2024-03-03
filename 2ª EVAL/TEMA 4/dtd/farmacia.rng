@@ -1,0 +1,59 @@
+<grammar xmlns = "http://relaxng.org/ns/structure/1.0"
+    datatypeLibrary = "http://www.w3.org/2001/XMLSchema-datatypes">
+	<start>
+		<ref name = "farmaciaContent"/>
+	</start>
+	<define name = "farmaciaContent">
+		<element name = "farmacia">
+			<ref name = "medicamentosContent"/>
+		</element>
+	</define>
+	<define name = "medicamentosContent">
+		<element name = "medicamentos">
+			<oneOrMore>
+				<ref name = "medicamentoContent"/>
+			</oneOrMore>
+		</element>
+	</define>
+	<define name = "medicamentoContent">
+		<element name = "medicamento">
+			<ref name = "nombreContent"/>
+			<ref name = "precioContent"/>
+			<oneOrMore>
+				<ref name = "presentacionContent"/>
+			</oneOrMore>
+			<optional>
+				<ref name = "cajaContent"/>
+			</optional>
+			<optional>
+				<ref name = "frascoContent"/>
+			</optional>
+		</element>
+	</define>
+	<define name = "nombreContent">
+		<element name = "nombre">
+			<text/>
+			<attribute name = "fabricante"/>
+		</element>
+	</define>
+	<define name = "precioContent">
+		<element name = "precio">
+			<text/>
+		</element>
+	</define>
+	<define name = "presentacionContent">
+		<element name = "presentacion">
+			<text/>
+		</element>
+	</define>
+	<define name = "cajaContent">
+		<element name = "caja">
+			<text/>
+		</element>
+	</define>
+	<define name = "frascoContent">
+		<element name = "frasco">
+			<text/>
+		</element>
+	</define>
+</grammar>
