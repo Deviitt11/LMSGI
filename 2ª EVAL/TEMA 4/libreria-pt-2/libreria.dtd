@@ -1,8 +1,9 @@
 <!ELEMENT libreria (castellano, otrosIdiomas)>
 <!ELEMENT castellano (libros)>
 <!ELEMENT libros (libro+)>
-<!ELEMENT libro (autor, edicionEspecial, saga+, paquete*, (descuento | regalo), idioma?)>
+<!ELEMENT libro (titulo, autor, edicionEspecial, saga+, paquete*, (descuento | regalo))>
 <!ELEMENT autor (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
 <!ELEMENT edicionEspecial (#PCDATA)>
 <!ELEMENT saga (#PCDATA)>
 <!ELEMENT paquete (#PCDATA)>
@@ -11,5 +12,5 @@
 
 <!ELEMENT otrosIdiomas (librosOI)>
 <!ELEMENT librosOI (libroOI)>
-<!ELEMENT libroOI (autor, edicionEspecial, saga+, paquete*, (descuento | regalo), idioma)>
+<!ELEMENT libroOI (titulo, autor, edicionEspecial, saga+, paquete*, (descuento | regalo), idioma)>
 <!ELEMENT idioma (#PCDATA)>

@@ -5,6 +5,7 @@
     <castellano>
         <libros>
             <libro>
+                <titulo></titulo>
                 <autor></autor>
                 <edicionEspecial></edicionEspecial>
                 <saga></saga>
