@@ -2,7 +2,10 @@
 
 <?xml-stylesheet href="./pizzeria.xslt" type="text/xsl"?>
 
+<?xml-model href="pizzeria.rng"?>
+
 <!DOCTYPE pizzeria SYSTEM "pizzeria.dtd">
+
 <pizzeria>
     <pizzas>
         <pizza>

@@ -1,0 +1,117 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <ref name = "pizzeriaContent"/>
+    </start>
+
+    <define name = "pizzeriaContent">
+        <element name = "pizzeria">
+            <ref name = "pizzasContent"/>
+            <ref name = "vinosContent"/>
+        </element>
+    </define>
+
+    <define name = "pizzasContent">
+        <element name = "pizzas">
+            <oneOrMore>
+                <ref name = "pizzaContent"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name = "pizzaContent">
+        <element name = "pizza">
+            <ref name = "nombreContent"/>
+            <ref name = "precioContent"/>
+            <ref name = "masaContent"/>
+            <ref name = "bordeContent"/>
+            <ref name = "fotoContent"/>
+            <optional>
+                <ref name = "toppingContent"/>
+            </optional>
+            <optional>
+                <ref name = "tamañoContent"/>
+            </optional>
+            <zeroOrMore>
+                <ref name = "extraContent"/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name = "nombreContent">
+        <element name = "nombre">
+            <text/>
+        </element>
+    </define>
+
+    <define name = "precioContent">
+        <element name = "precio">
+            <text/>
+            <attribute name= "moneda"/>
+        </element>
+    </define>
+
+    <define name = "masaContent">
+        <element name = "masa">
+            <text/>
+            <attribute name= "masaTipo"/>
+        </element>
+    </define>
+
+    <define name = "bordeContent">
+        <element name = "borde">
+            <text/>
+        </element>
+    </define>
+
+    <define name = "fotoContent">
+        <element name = "foto">
+            <text/>
+        </element>
+    </define>
+
+    <define name = "toppingContent">
+        <element name = "topping">
+            <text/>
+        </element>
+    </define>
+
+    <define name = "tamañoContent">
+        <element name = "tamaño">
+            <text/>
+        </element>
+    </define>
+
+    <define name = "extraContent">
+        <element name = "extra">
+            <text/>
+        </element>
+    </define>
+
+    <define name = "vinosContent">
+        <element name = "vinos">
+            <oneOrMore>
+                <ref name = "vinoContent"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name = "vinoContent">
+        <element name = "vino">
+            <ref name = "marcaContent"/>
+            <ref name = "tipoContent"/>
+            <ref name = "precioContent"/>
+        </element>
+    </define>
+
+    <define name = "marcaContent">
+        <element name = "marca">
+            <text/>
+        </element>
+    </define>
+
+    <define name = "tipoContent">
+        <element name = "tipo">
+            <text/>
+        </element>
+    </define>
+</grammar>

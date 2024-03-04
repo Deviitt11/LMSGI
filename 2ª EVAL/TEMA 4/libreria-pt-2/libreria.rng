@@ -1,98 +1,45 @@
 <grammar xmlns="http://relaxng.org/ns/structure/1.0"
     datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+
     <start>
         <ref name="libreriaContent"/>
     </start>
 
     <define name="libreriaContent">
-        <element name="libreria">
-            <ref name="librosContent"/>
-            <ref name="revistasContent"/>
+        <element name= "libreria">
+            <ref name="castellanoContent"/>
+            <ref name="otrosIdiomasContent"/>
         </element>
     </define>
 
-    <define name="librosContent">
-        <element name="libros">
+    <define name= "castellanoContent">
+        <element name="castellano">
             <oneOrMore>
                 <ref name="libroContent"/>
             </oneOrMore>
         </element>
-    </define>
+    </define>  
 
-    <define name="revistasContent">
-        <element name="revistas">
-            <oneOrMore>
-                <ref name="revistaContent"/>
-            </oneOrMore>
-        </element>
-    </define>
-
-    <define name="libroContent">
+    <define name= "libroContent">
         <element name="libro">
-            <ref name="tituloContent"/>
             <ref name="autorContent"/>
-            <ref name="descripcionContent"/>
-            <ref name="precioContent"/>
-            <optional>
-                <ref name="edicionEspecialContent"/>
-            </optional>
+            <ref name="edicionEspecialContent"/>
             <oneOrMore>
-                <ref name="portadaContent"/>
+                <ref name="sagaContent"/>
             </oneOrMore>
             <zeroOrMore>
-            <ref name="paqueteContent"/>
+                <ref name="paqueteContent"/>    
             </zeroOrMore>
-            <ref name="transporteContent"/>
-            <ref name="descuentoContent"/>
-            <ref name="regaloContent"/>
-
-        </element>
-    </define>
-    <define name="revistaContent">
-        <element name="revista">
-            <ref name="tituloContent"/>
-            <ref name="autorContent"/>
-            <ref name="descripcionContent"/>
-            <ref name="precioContent"/>
-            <optional>
-                <ref name="edicionEspecialContent"/>
-            </optional>
-            <oneOrMore>
-                <ref name="portadaContent"/>
-            </oneOrMore>
-            <zeroOrMore>
-            <ref name="paqueteContent"/>
-            </zeroOrMore>
-            <ref name="transporteContent"/>
-            <ref name="descuentoContent"/>
-            <ref name="regaloContent"/>
-            <ref name="extraContent"/>
-        </element>
-    </define>
-
-    <define name="tituloContent">
-        <element name="titulo">
-            <text/>
+            <choice>
+                <ref name="descuentoContent"/>
+                <ref name="regaloContent"/>
+            </choice>
         </element>
     </define>
 
     <define name="autorContent">
         <element name="autor">
-            <attribute name="coautor"/>
             <text/>
-        </element>
-    </define>
-
-    <define name="descripcionContent">
-        <element name="descripcion">
-            <text/>
-        </element>
-    </define>
-
-    <define name="precioContent">
-        <element name="precio">
-            <text/>
-            <attribute name="moneda"/>
         </element>
     </define>
 
@@ -102,21 +49,15 @@
         </element>
     </define>
 
-    <define name="portadaContent">
-        <element name="portada">
-            <text />
+    <define name="sagaContent">
+        <element name="saga">
+            <text/>
         </element>
     </define>
 
     <define name="paqueteContent">
         <element name="paquete">
             <text/>
-        </element>
-    </define>
-
-    <define name="transporteContent">
-        <element name="transporte">
-            <empty/>
         </element>
     </define>
 
@@ -128,14 +69,39 @@
 
     <define name="regaloContent">
         <element name="regalo">
-            <empty/>
+            <text/>
         </element>
     </define>
 
-    <define name="extraContent">
-        <element name="extra">
+    <define name="otrosIdiomasContent">
+        <element name="otrosIdiomas">
+            <oneOrMore>
+                <ref name="libroOIContent"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="libroOIContent">
+        <element name="libroOI">
+            <ref name="autorContent"/>
+            <ref name="edicionEspecialContent"/>
+            <oneOrMore>
+                <ref name="sagaContent"/>
+            </oneOrMore>
+            <zeroOrMore>
+                <ref name="paqueteContent"/>    
+            </zeroOrMore>
+            <choice>
+                <ref name="descuentoContent"/>
+                <ref name="regaloContent"/>
+            </choice>
+            <ref name="idiomaContent"/>
+        </element>
+    </define>
+
+    <define name="idiomaContent">
+        <element name="idioma">
             <text/>
-            <attribute name="suplemento"/>
         </element>
     </define>
 </grammar>

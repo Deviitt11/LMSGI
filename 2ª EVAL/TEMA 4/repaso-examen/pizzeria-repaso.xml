@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<pizzeria>
+    <pizzas>
+        <pizza>
+            <nombre>4 quesos</nombre>
+            <precio moneda = "euros">5</precio>
+            <masa masaTipo = "integral">Fina</masa>
+            <borde>Relleno</borde>
+            <foto>https://valledearas.com/wordpress/wp-content/uploads/2023/01/pizza-4-quesos.jpg</foto>
+            <topping>Piña</topping>
+            <tamaño>Mediana</tamaño>
+            <extra>Bacon</extra>
+        </pizza>
+
+        <pizza>
+            <nombre>Margarita</nombre>
+            <precio moneda = "euros">7</precio>
+            <masa masaTipo = "integral">Extrafina</masa>
+            <borde>Relleno de queso de cabra</borde>
+            <foto>https://imag.bonviveur.com/pizza-margarita.jpg</foto>
+            <topping>Pollo</topping>
+            <tamaño>Familiar</tamaño>
+        </pizza>
+
+        <vinos>
+            <vino>
+                <marca>Dell'Emilia Dolce</marca>
+                <tipo>Lambrusco</tipo>
+                <precio moneda = "euros">33</precio>
+            </vino>
+            <vino>
+                <marca>Tadre</marca>
+                <tipo>Blanco</tipo>
+                <precio moneda = "euros">31</precio>
+            </vino>
+        </vinos>
+    </pizzas>
+</pizzeria>
