@@ -1,0 +1,18 @@
+1: Mostrar autores
+2: Mostrar atributo
+3: Mostrar año de la fecha de publicación
+4: nodos de los autores
+5: títulos y autores
+6: título
+7: 
+8: nombres autores libros
+9: todos los elementos dentro de libro
+
+
+/: para partir del raíz
+//: para hacer búsquedas directamente
+@: para buscar atributos
+: : para referenciar al elemento padre
+node(): seleccionar todos los nodos y texto
+text(): selecciona el contenido de un elemento
+* : máscara para mostrar todo
