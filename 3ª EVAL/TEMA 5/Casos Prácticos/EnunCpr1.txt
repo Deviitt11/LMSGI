@@ -1,7 +1,7 @@
-1: Mostrar autores
-2: Mostrar atributo
-3: Mostrar año de la fecha de publicación
-4: nodos de los autores
+1: Mostrar autores //autor
+2: Mostrar atributo //autor/@FechaNacimiento
+3: Mostrar año de la fecha de publicación //fechaPublicacion/@año
+4: nodos de los autores 
 5: títulos y autores
 6: título
 7: 
