@@ -9,6 +9,7 @@
 9: todos los elementos dentro de libro
 10: todas las fechas de nacimiento //autor/@*
 
+
 PREDICADOS
 11: elementos que tengan atributo fechaNacimiento (solo ese atributo) //autor[@fechaNacimiento]
 12: info primer libro registrado en la biblio //libro[1]
@@ -19,5 +20,8 @@ PREDICADOS
 17: todos los datos de libros que cumplen la anterior //libro[fechaPublicacion/@año < 1970] O //fechaPublicacion[@año < 1970]/..
 18: todos los datos de libros de MGV y cuyo año de publicación sea 1969 
 19: todos los datos de los libros cuyo autor sea MVG o Milan Kundera //autor[.= "Mario Vargas Llosa" or "Milan Kundera"]/..
+20: año publicación La vida está en otra parte //titulo [. = "La vida está en otra parte"]/../fechaPublicacion/@año
+21: títulos libros publicados en 1973 //fechaPublicacion[@año=1973]/../titulo
+
 
 
