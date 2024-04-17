@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+      <receta>
+          <nombre>Paella</nombre>
+          <nivel-dificultad>Medio</nivel-dificultad>  
+      </receta>
+      <receta>
+          <nombre>Gazpacho</nombre>
+          <nivel-dificultad>Fácil</nivel-dificultad>  
+      </receta>
+      <receta>
+          <nombre>Sopa castellana</nombre>
+          <nivel-dificultad>Fácil</nivel-dificultad>  
+      </receta>
+      <receta>
+        <nombre>Chicharrón de pollo a la cantonesa con cresta de gallo</nombre>
+        <nivel-dificultad>Difícil</nivel-dificultad>  
+      </receta>
+</recetas>

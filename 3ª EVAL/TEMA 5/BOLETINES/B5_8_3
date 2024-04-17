@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<paises>
+  <pais poblacion="211000000">
+     <nombre>Brasil</nombre>
+     <continente>América</continente>
+  </pais>
+    <pais poblacion="11646">
+     <nombre>Tuvalu</nombre>
+      <continente>Oceanía</continente>
+  </pais>
+    <pais poblacion="43000000">
+      <nombre>Argelia</nombre>
+      <continente>África</continente>
+  </pais>
+    <pais poblacion="97625">
+      <nombre>Seychelles</nombre>
+      <continente>África</continente>
+  </pais>
+</paises>

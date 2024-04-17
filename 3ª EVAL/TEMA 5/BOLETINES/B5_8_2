@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<grupos>
+  <grupo>
+    <nombre>Metallica</nombre>
+   <genero>Rock</genero>  
+  </grupo>
+  <grupo>
+    <nombre>Depeche Mode</nombre>
+   <genero>Música Electrónica</genero>  
+  </grupo>
+    <grupo>
+   <nombre>Taburete</nombre>
+    <genero>Pop</genero>  
+  </grupo>
+    <grupo>
+    <nombre>Ramones</nombre>
+    <genero>Punk</genero>  
+  </grupo>
+    <grupo>
+    <nombre>Extremoduro</nombre>
+    <genero>Rock</genero>  
+  </grupo>
+</grupos>
