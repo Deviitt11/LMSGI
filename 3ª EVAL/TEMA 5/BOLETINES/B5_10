@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<series>
+  <serie>
+      <titulo>The Wire</titulo>
+      <temporadas>5</temporadas>
+      <estreno>2002</estreno>
+  </serie>
+  <serie>
+      <titulo>Los Soprano</titulo>
+      <temporadas>6</temporadas>
+      <estreno>1999</estreno>
+  </serie>
+  <serie>
+      <titulo>Los Simpsons</titulo>
+      <temporadas>32</temporadas>
+      <estreno>1989</estreno>
+  </serie>
+  <serie>
+      <titulo>The Boys</titulo>
+      <temporadas>2</temporadas>
+      <estreno>2019</estreno>
+  </serie>
+  <serie>
+      <titulo>Stranger Things</titulo>
+      <temporadas>3</temporadas>
+      <estreno>2016</estreno>
+  </serie>
+</series>
