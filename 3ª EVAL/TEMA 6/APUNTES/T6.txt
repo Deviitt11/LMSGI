@@ -1,0 +1,7 @@
+FLWOR
+for
+let
+where
+order by
+return
+
