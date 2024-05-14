@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<vehiculos>
+	<vehiculo velocidad = "300">
+		<marca>Seat</marca>
+		<modelo>Seat</modelo>
+	</vehiculo>
+	<vehiculo velocidad = "500">
+		<marca>Kia</marca>
+		<modelo>Ceed</modelo>
+	</vehiculo>
+	<vehiculo velocidad = "3300">
+		<marca>Porsche</marca>
+		<modelo>911</modelo>
+	</vehiculo>
+</vehiculos>
