@@ -1,2 +1,2 @@
-let $a:= //year/text()
+for $a in doc("B6_2.xml")//year
 return <publicacion>{$a}</publicacion>

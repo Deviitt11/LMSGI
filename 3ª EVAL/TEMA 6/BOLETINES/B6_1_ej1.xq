@@ -1,2 +1,2 @@
 for $a in //vehiculo
-return $a
+return $a/modelo

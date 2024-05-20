@@ -1,5 +1,2 @@
 let $libros := //book
-return 
-<total>
-  {SUM($libros/price)}
-</total>
+return <total>{sum($libros/price)}</total>
